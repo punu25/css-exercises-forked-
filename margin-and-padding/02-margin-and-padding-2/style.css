@@ -1,3 +1,7 @@
+*{
+  margin: 0px;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -7,21 +11,33 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 16px;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px;
+  margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 16px;
 }
 
 button {
   background: white;
+  display: block;
   border: 1px solid #eee;
+  padding: 10px;
+  margin-left: 130px;
+  margin-top: 5px;
 }
